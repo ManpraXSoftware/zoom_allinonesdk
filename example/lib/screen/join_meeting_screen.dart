@@ -97,8 +97,7 @@ class _JoinMeetingScreenState extends State<JoinMeetingScreen> {
     var meetingOptions = new MeetingOptions(
         displayName: "",
         meetingId: meetingId, //Personal meeting id for join meeting required
-        meetingPassword:
-            password, //Personal meeting passcode for join meeting required
+        meetingPassword: password, //Personal meeting passcode for join meeting required
         userType: "0" //userType 0 for attendee
         );
 
@@ -195,7 +194,6 @@ class _JoinMeetingScreenState extends State<JoinMeetingScreen> {
             color: Colors.black,
             fontWeight: FontWeight.w700,
             fontSize: 15,
-            fontFamily: "Gilroy",
           ),
           decoration: InputDecoration(
             counterText: "",
@@ -237,7 +235,6 @@ class _JoinMeetingScreenState extends State<JoinMeetingScreen> {
               color: Color(0xFF9B9B9B),
               fontWeight: FontWeight.w700,
               fontSize: 15,
-              fontFamily: "Gilroy",
             ),
           ),
         );

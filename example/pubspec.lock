@@ -240,11 +240,10 @@ packages:
   zoom_allinonesdk:
     dependency: "direct main"
     description:
-      name: zoom_allinonesdk
-      sha256: a807226cadbc962c7d726cc4b45c9e7f22fcef9dfbf23b7b59d17d3d809b6377
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.2"
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.3"
 sdks:
   dart: ">=3.1.0-185.0.dev <4.0.0"
   flutter: ">=2.5.0"
