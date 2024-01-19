@@ -117,8 +117,10 @@ class DashBoardScreen extends StatelessWidget {
     );
     var meetingOptions = new MeetingOptions(
         displayName: "Web test user",
-        meetingId: "YOUR_MEETING_ID", //Personal meeting id for start meeting required
-        meetingPassword: "YOUR_MEETING_PASSWORD", //Personal meeting passcode for start meeting required
+        meetingId:
+            "YOUR_MEETING_ID", //Personal meeting id for start meeting required
+        meetingPassword:
+            "YOUR_MEETING_PASSWORD", //Personal meeting passcode for start meeting required
         userType: "1");
 
     var zoom = ZoomAllInOneSdk();

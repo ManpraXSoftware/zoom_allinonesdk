@@ -95,9 +95,10 @@ class _JoinMeetingScreenState extends State<JoinMeetingScreen> {
       audioPanelAlwaysOpen: false, // Optional - For Web
     );
     var meetingOptions = new MeetingOptions(
-        displayName: "",
+        displayName: "Join test user",
         meetingId: meetingId, //Personal meeting id for join meeting required
-        meetingPassword: password, //Personal meeting passcode for join meeting required
+        meetingPassword:
+            password, //Personal meeting passcode for join meeting required
         userType: "0" //userType 0 for attendee
         );
 

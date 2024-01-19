@@ -42,17 +42,18 @@ class MethodChannelZoomAllInOneSdk extends ZoomAllInOneSdkPlatform {
     try {
       // Prepare options map
       final options = <String, dynamic>{
-        ZoomConstants.USER_ID: meetingOptions.userId??'',
-        ZoomConstants.MEETING_ID: meetingOptions.meetingId??'',
-        ZoomConstants.MEETING_PASSWORD: meetingOptions.meetingPassword??'',
-        ZoomConstants.DISABLE_DIAL_IN: meetingOptions.noDialInViaPhone??'',
-        ZoomConstants.DISABLE_DRIVE: meetingOptions.noDrivingMode??'',
-        ZoomConstants.DISABLE_INVITE: meetingOptions.noInvite??'',
-        ZoomConstants.DISABLE_SHARE: meetingOptions.noShare??'',
-        ZoomConstants.DISABLE_TITLEBAR: meetingOptions.noTitlebar??'',
-        ZoomConstants.NO_DISCONNECT_AUDIO: meetingOptions.noDisconnectAudio??'',
-        ZoomConstants.VIEW_OPTIONS: meetingOptions.viewOptions??'',
-        ZoomConstants.NO_AUDIO: meetingOptions.noAudio??'',
+        ZoomConstants.USER_ID: meetingOptions.userId ?? '',
+        ZoomConstants.MEETING_ID: meetingOptions.meetingId ?? '',
+        ZoomConstants.MEETING_PASSWORD: meetingOptions.meetingPassword ?? '',
+        ZoomConstants.DISABLE_DIAL_IN: meetingOptions.noDialInViaPhone ?? '',
+        ZoomConstants.DISABLE_DRIVE: meetingOptions.noDrivingMode ?? '',
+        ZoomConstants.DISABLE_INVITE: meetingOptions.noInvite ?? '',
+        ZoomConstants.DISABLE_SHARE: meetingOptions.noShare ?? '',
+        ZoomConstants.DISABLE_TITLEBAR: meetingOptions.noTitlebar ?? '',
+        ZoomConstants.NO_DISCONNECT_AUDIO:
+            meetingOptions.noDisconnectAudio ?? '',
+        ZoomConstants.VIEW_OPTIONS: meetingOptions.viewOptions ?? '',
+        ZoomConstants.NO_AUDIO: meetingOptions.noAudio ?? '',
       };
 
       // Invoke method and handle the result
@@ -78,19 +79,20 @@ class MethodChannelZoomAllInOneSdk extends ZoomAllInOneSdkPlatform {
     try {
       // Prepare options map
       final options = <String, dynamic>{
-        ZoomConstants.MEETING_ID: meetingOptions.meetingId??'',
-        ZoomConstants.USER_ID: meetingOptions.userId??'',
-        ZoomConstants.DISPLAY_NAME: meetingOptions.displayName??'',
-        ZoomConstants.USER_PASSWORD: meetingOptions.userPassword??'',
-        ZoomConstants.DISABLE_DIAL_IN: meetingOptions.noDialInViaPhone??'',
-        ZoomConstants.DISABLE_DRIVE: meetingOptions.noDrivingMode??'',
-        ZoomConstants.DISABLE_INVITE: meetingOptions.noInvite??'',
-        ZoomConstants.DISABLE_SHARE: meetingOptions.noShare??'',
-        ZoomConstants.DISABLE_TITLEBAR: meetingOptions.noTitlebar??'',
-        ZoomConstants.VIEW_OPTIONS: meetingOptions.viewOptions??'',
-        ZoomConstants.NO_DISCONNECT_AUDIO: meetingOptions.noDisconnectAudio??'',
-        ZoomConstants.NO_AUDIO: meetingOptions.noAudio??'',
-        ZoomConstants.USER_TYPE: meetingOptions.userType??'',
+        ZoomConstants.MEETING_ID: meetingOptions.meetingId ?? '',
+        ZoomConstants.USER_ID: meetingOptions.userId ?? '',
+        ZoomConstants.DISPLAY_NAME: meetingOptions.displayName ?? '',
+        ZoomConstants.USER_PASSWORD: meetingOptions.userPassword ?? '',
+        ZoomConstants.DISABLE_DIAL_IN: meetingOptions.noDialInViaPhone ?? '',
+        ZoomConstants.DISABLE_DRIVE: meetingOptions.noDrivingMode ?? '',
+        ZoomConstants.DISABLE_INVITE: meetingOptions.noInvite ?? '',
+        ZoomConstants.DISABLE_SHARE: meetingOptions.noShare ?? '',
+        ZoomConstants.DISABLE_TITLEBAR: meetingOptions.noTitlebar ?? '',
+        ZoomConstants.VIEW_OPTIONS: meetingOptions.viewOptions ?? '',
+        ZoomConstants.NO_DISCONNECT_AUDIO:
+            meetingOptions.noDisconnectAudio ?? '',
+        ZoomConstants.NO_AUDIO: meetingOptions.noAudio ?? '',
+        ZoomConstants.USER_TYPE: meetingOptions.userType ?? '',
       };
 
       // Instantiate ZoomProvider and ZoomRepository

@@ -12,8 +12,6 @@ import 'webSupport/zoom_js.dart';
 import 'zoom_allinonesdk_platform_interface.dart';
 
 class FlutterZoomWeb extends ZoomAllInOneSdkPlatform {
-  StreamController<dynamic>? streamController;
-
   final jwtGenerator = JwtGenerator();
 
   static void registerWith(Registrar registrar) {
@@ -114,7 +112,7 @@ class FlutterZoomWeb extends ZoomAllInOneSdkPlatform {
         key: zoomoptions.clientId ?? "",
         secret: zoomoptions.clientSecert ?? "",
         meetingId: int.tryParse(meetingOptions.meetingId ?? "") ?? 0,
-        role: meetingOptions.userType ?? "1");
+        role: meetingOptions.userType ?? "0");
     ZoomMtg.join(JoinParams(
         meetingNumber: meetingOptions.meetingId,
         userName: meetingOptions.displayName ?? meetingOptions.userId,
@@ -129,5 +127,4 @@ class FlutterZoomWeb extends ZoomAllInOneSdkPlatform {
         })));
     return completer.future;
   }
-
 }
