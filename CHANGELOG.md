@@ -1,3 +1,7 @@
+## 0.0.5
+
+- Web bug fixes
+
 ## 0.0.4
 
 - Bug fixes
