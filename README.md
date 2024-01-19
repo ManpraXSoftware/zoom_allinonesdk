@@ -2,7 +2,7 @@
 
 A Flutter plugin for integrating the **Zoom All-In-One SDK** into your Flutter applications with support for Android, iOS and Web platforms.
 
-You must create a **Zoom account**, generate a **Meeting SDK**, and set up **server-to-server OAuth** legacy apps to obtain the necessary **configuration parameters**. Additionally, you need to manually integrate the Zoom Android, iOS, and Web Meeting SDKs by following the instructions provided for each platform below.
+You must create a **Zoom account**, generate a **Meeting SDK**, and set up **Server-to-Server OAuth** legacy apps to obtain the necessary **configuration parameters**. Additionally, you need to manually integrate the Zoom Android, iOS, and Web Meeting SDKs by following the instructions provided for each platform below.
 
 **Note:** This plugin is actively under development, and some Zoom features may not be available yet. We welcome feedback, bug reports, and pull requests.
 
