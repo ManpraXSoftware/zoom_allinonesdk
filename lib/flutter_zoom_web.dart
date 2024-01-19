@@ -130,9 +130,4 @@ class FlutterZoomWeb extends ZoomAllInOneSdkPlatform {
     return completer.future;
   }
 
-  /// Listen to Ongoing Meeting Function for Zoom Web
-  @override
-  Future<List<String>> meetingStatus(String meetingId) async {
-    return ["MEETING_STATUS", "CONNECTED"];
-  }
 }

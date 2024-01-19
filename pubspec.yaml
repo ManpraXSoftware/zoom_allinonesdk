@@ -1,6 +1,6 @@
 name: zoom_allinonesdk
-description: Easily integrate Zoom meetings into your Flutter applications with the Zoom All-in-One Plugin. This plugin provides seamless support for starting and joining Zoom meetings on Android, iOS and web platforms.
-version: 0.0.3
+description: Integrate Zoom meetings effortlessly in Flutter with the Zoom All-in-One Plugin. Start and join meetings seamlessly on Android, iOS and web platforms.
+version: 0.0.4
 homepage: https://github.com/ManpraXSoftware/zoom_allinonesdk
 repository: https://github.com/ManpraXSoftware/zoom_allinonesdk
 #issue_tracker:

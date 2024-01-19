@@ -40,7 +40,7 @@ class ZoomProvider {
       } else {
         throw Exception('Failed to fetch data: ${response.statusCode}');
       }
-    } on DioError catch (e) {
+    } on DioException catch (e) {
       if (e.response?.statusCode == 404) {
         throw Exception('Something went wrong... ${e.message}');
       } else {
@@ -72,7 +72,7 @@ class ZoomProvider {
       } else {
         throw Exception('Failed to fetch data: ${response.statusCode}');
       }
-    } on DioError catch (e) {
+    } on DioException catch (e) {
       if (e.response?.statusCode == 404) {
         throw Exception('Something went wrong... ${e.message}');
       } else {
