@@ -15,9 +15,10 @@
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
+# Visual Studio Code related
+.classpath
+.project
+.settings/
 .vscode/
 
 # Flutter/Dart/Pub related
@@ -31,15 +32,13 @@
 .pub/
 /build/
 
-# Web related
-
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# Android related
 /android/app/debug
 /android/app/profile
 /android/app/release
